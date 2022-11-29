@@ -17,6 +17,93 @@
 </hr>
 </center>
 
+<!-- FORM -->
+<section>
+    <h1 style="text-align: center;" class="headline">Coba Isi</h1>
+    <div class="container-contact2">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="femail">E-mail</label>
+            <input class="label-email" type="text/number" id="femail" name="email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+<!-- END FORM -->
+
+
+<!-- STYLE CSS -->
+<style>
+    *{
+        background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    }
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.label-email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+.container-contact2 {
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.headline {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+</style>
+<!-- END STYLE CSS -->
+
+<hr />
+  <footer>
+    <center>
+      <p>
+        Created with
+        <i class="far fa-kiss-wink-heart" style="color: red"></i> by
+        <a
+          style="text-decoration: none"
+          href="https://www.instagram.com/isnanramalia"
+          >Isna nur amalia</a
+        >
+      </p>
+
+      <p>Copyright &copy; 2022 Isna</p>
+    </center>
+  </footer>
 </body>
 </html>
