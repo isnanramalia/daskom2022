@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="all.css">
+    <title>buku tamu</title>
+</head>
+
+<body>
+    <center>
+        <h1>Web Blog ku</h1>
+        <hr>
+        <a href="index.html" style="text-decoration: none;">beranda|</a>
+        <a href="profil.html" style="text-decoration: none;">profil|</a>
+        <a href="artikel.html" style="text-decoration: none;">artikel|</a>
+        <a href="buku_tamu.html" style="text-decoration: none;">buku tamu</a>
+        <hr>
+    </center>
+
+<!-- FORM -->
+<h2 style="text-align: center;">Form Buku Tamu</h2>
+    <form action="simpan.php">
+        Nama Lengkap<br>
+        <input type="text" name="nama_lengkap" size="55">
+        <br><br>
+        Jenis Kelamin:<br>
+        Laki-laki <input type="radio" name="jenis_kelamin" value="L"> Perempuan <input type="radio" name="jenis_kelamin" value="P">
+        <br><br>
+        Alamat Tinggal:<br>
+        <input type="text" name="alamat" size="55">
+        <br><br>
+        Email:<br>
+        <input type="email" name="email" size="55">
+        <br><br>
+        Aktif Pada Sosial Media:<br>
+        <input type="checkbox" name="facebook" value="Ya">Facebook
+        <input type="checkbox" name="twitter" value="Ya">Twitter
+        <input type="checkbox" name="instagram" value="Ya">Instagram
+        <input type="checkbox" name="path" value="Ya">Path
+        <br><br>
+        Mengetahui Web Ini dari:<br>
+        <select name="info">
+            <option selected="select">-= Pilih =-</option>
+            <option value="web udinus">Web Udinus</option>
+            <option value="surat kabar">Surat Kabar</option>
+            <option value="teman kerabat">Teman/Kerabat</option>
+            <option value="browsing internet">Browsing Internet</option>
+        </select>
+        <br><br>
+        Pesan:<br>
+        <textarea name="pesan" cols="40" rows="3"></textarea>
+        <br><br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Batal">
+    </form>
+<!-- END FORM -->
+</body>
+
+
+<footer>
+    <hr>
+    <center>
+        <p>
+            Created with love
+            <a style="text-decoration: none" href="https://www.instagram.com/isnanramalia">Isna nur amalia</a>
+        </p>
+        <p>Copyright &copy; 2022</p>
+    </center>
+</footer>
+
+</html>
